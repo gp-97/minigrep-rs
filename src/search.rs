@@ -1,6 +1,6 @@
 use crate::config::Config;
 
-pub fn search(config: &Config, content: &String) {
+pub fn search_query(config: &Config, content: &String) {
     let query: &String = config.get_query();
     let mut instances = 0;
     for (count, line) in content.lines().enumerate() {

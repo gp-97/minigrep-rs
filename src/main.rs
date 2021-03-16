@@ -14,5 +14,5 @@ fn main() {
 
     let mut content_box = String::new();
     run(&config, &mut content_box);
-    search::search(&config, &content_box);
+    search::search_query(&config, &content_box);
 }
