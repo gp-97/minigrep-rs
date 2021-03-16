@@ -1,4 +1,3 @@
-#[derive(Debug)]
 pub struct Config {
     filename: String,
     query: String,
